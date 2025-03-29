@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    clear: both;
+    width: auto;
+    border: 1px solid black;
+    height: 500px;
+    align-items: center;
+}
+
+main .searchItems input[type=text]{
+    width: 30em;
+    height: 5em;
+    text-align: center;
+}
+
+main .searchItems input[type=button]{
+    width: 10em;
+    height: 5em;
+}
+
+
+.information{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 1%;
+    height: 66.7%;
+    border: 1px solid black;
+    justify-content: center;
+}
